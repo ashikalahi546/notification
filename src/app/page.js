@@ -1,13 +1,13 @@
+import AnimationButton from "@/components/AnimationButton";
 import Notification from "@/components/Notification";
-import NotificationTwo from "@/components/NotificationTwo";
 
 export default function Home() {
  
 
   return (
     <div>
-<Notification/>
-<NotificationTwo/>
+{/* <Notification/> */}
+<AnimationButton/>
     </div>
   );
 }

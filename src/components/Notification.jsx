@@ -50,7 +50,7 @@ export default function Notification() {
           className={`transition-all duration-300 ease-in-out transform ${isVisible
             ? "opacity-100 scale-100"
             : "opacity-0 scale-95"
-          }`}
+            }`}
         >
           <Modal closeNotification={closeNotification} />
         </div>
